@@ -14,16 +14,27 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".drama").offset().top}, "slow");
 	});
 
+	//DESAFIO
+	$('#desafio').click(function() {
+		$('body,html').animate({scrollTop: $(".desafio").offset().top}, "slow");
+	});
+
 	//SIDE MENU
-	$('#btn-side-menu').click(function() {
-		$("#btn-side-menu").animate({"margin-left":"-80px;"}, "slow");
+	$('.btn-menu').click(function() {
+		$(".btn-menu").animate({
+			"margin-left":"-80px;"
+		}, "slow");
+
 		$('.side-menu').animate({
 			'margin-left':'0px'
 		}, 'slow');
 	});
 
 	$('#fechar').click(function() {
-		$("#btn-side-menu").animate({"margin-left":"0px"}, "slow");
+		$("#btn-side-menu").animate({
+			"margin-left":"0px"
+		}, "slow");
+
 		$('.side-menu').animate({
 			'margin-left':'-220px'
 		}, 'slow');

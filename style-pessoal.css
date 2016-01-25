@@ -1,3 +1,9 @@
 .list-menu li{
 	list-style-type:none !important;
 }
+
+@media (max-width: 479px) {
+	.side-menu {
+    margin-left: -220px;
+  }
+}
