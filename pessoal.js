@@ -23,7 +23,7 @@ $(document).ready(function(){
 	});
 
 	$('#fechar').click(function() {
-		(this).animate({"margin-left":"0px"}, "slow");
+		$(this).animate({"margin-left":"0px"}, "slow");
 		$('.side-menu').animate({
 			'margin-left':'-220px'
 		}, 'slow');
