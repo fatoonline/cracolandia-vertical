@@ -28,11 +28,11 @@ $(document).ready(function(){
 	$('#btn-side-menu').click(function() {
 		$("#btn-side-menu").animate({
 			"margin-left":"-90px"
-		}, "slow");
+		}, 800);
 
 		$('.side-menu').animate({
 			'margin-left':'0px'
-		}, 'slow');
+		}, 800);
 	});
 
 
@@ -40,11 +40,11 @@ $(document).ready(function(){
 
 		$("#btn-side-menu").animate({
 			"margin-left":"0px"
-		}, "slow");
+		}, 800);
 
 		$('.side-menu').animate({
 			'margin-left':'-220px'
-		}, 'slow');
+		}, 800);
 	});
 
 });
