@@ -19,6 +19,11 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".desafio").offset().top}, "slow");
 	});
 
+	//DESAFIO
+	$('#vida-apos').click(function() {
+		$('body,html').animate({scrollTop: $(".vida-apos").offset().top}, "slow");
+	});
+
 	//SIDE MENU
 	$('#btn-side-menu').click(function() {
 		$("#btn-side-menu").animate({
