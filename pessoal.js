@@ -20,9 +20,9 @@ $(document).ready(function(){
 	});
 
 	//SIDE MENU
-	$('.btn-menu').click(function() {
-		$(".btn-menu").animate({
-			"margin-left":"-80px;"
+	$('#btn-side-menu').click(function() {
+		$("#btn-side-menu").animate({
+			"margin-left":"-90px"
 		}, "slow");
 
 		$('.side-menu').animate({
@@ -30,7 +30,9 @@ $(document).ready(function(){
 		}, 'slow');
 	});
 
+
 	$('#fechar').click(function() {
+
 		$("#btn-side-menu").animate({
 			"margin-left":"0px"
 		}, "slow");
