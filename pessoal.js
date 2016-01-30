@@ -24,6 +24,11 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".vida-apos").offset().top}, "slow");
 	});
 
+	//CONSEQUENCIAS
+	$('#consequencias').click(function() {
+		$('body,html').animate({scrollTop: $(".consequencias").offset().top}, "slow");
+	});
+
 	//SIDE MENU
 	$('#btn-side-menu').click(function() {
 		$("#btn-side-menu").animate({
