@@ -35,8 +35,8 @@ $(document).ready(function(){
 	});
 
 	//invasao
-	$('#drama').click(function() {
-		$('body,html').animate({scrollTop: $(".invasao").offset().top}, "slow");
+	$('#invasao').click(function() {
+		$('body,html').animate({scrollTop: $(".drama").offset().top}, "slow");
 	});
 
 	//SIDE MENU
