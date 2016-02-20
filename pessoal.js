@@ -33,8 +33,8 @@ $(document).ready(function(){
 
 
 	//avanco
-	$('#avanco').click(function() {
-		$('body,html').animate({scrollTop: $(".avanco").offset().top}, "slow");
+	$('#sec-avanco').click(function() {
+		$('body,html').animate({scrollTop: $(".sec-avanco").offset().top}, "slow");
 	});
 
 	//lider
