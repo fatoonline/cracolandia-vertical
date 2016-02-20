@@ -37,15 +37,32 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".sec-avanco").offset().top}, "slow");
 	});
 
+
+	//invasao
+	$('#sec-invasao').click(function() {
+		$('body,html').animate({scrollTop: $(".sec-invasao").offset().top}, "slow");
+	});
+
+
 	//lider
 	$('#lider').click(function() {
 		$('body,html').animate({scrollTop: $(".lider").offset().top}, "slow");
 	});
 
-	//invasao
-	$('#invasao').click(function() {
-		$('body,html').animate({scrollTop: $(".sec-invasao").offset().top}, "slow");
+
+	//sec-major
+	$('#sec-major').click(function() {
+		$('body,html').animate({scrollTop: $(".sec-major").offset().top}, "slow");
 	});
+
+	//sec-ouvidor
+	$('#sec-ouvidor').click(function() {
+		$('body,html').animate({scrollTop: $(".sec-ouvidor").offset().top}, "slow");
+	});
+
+	
+
+	
 
 
 
