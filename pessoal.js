@@ -39,8 +39,8 @@ $(document).ready(function(){
 
 
 	//invasao
-	$('#sec-invasao').click(function() {
-		$('body,html').animate({scrollTop: $(".sec-invasao").offset().top}, "slow");
+	$('#drama').click(function() {
+		$('body,html').animate({scrollTop: $(".drama").offset().top}, "slow");
 	});
 
 
