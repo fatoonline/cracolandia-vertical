@@ -32,6 +32,11 @@ $(document).ready(function(){
 
 
 
+	//avanco
+	$('#avanco').click(function() {
+		$('body,html').animate({scrollTop: $(".avanco").offset().top}, "slow");
+	});
+
 	//lider
 	$('#lider').click(function() {
 		$('body,html').animate({scrollTop: $(".lider").offset().top}, "slow");
