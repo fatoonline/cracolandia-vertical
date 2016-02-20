@@ -29,15 +29,20 @@ $(document).ready(function(){
 		$('body,html').animate({scrollTop: $(".consequencias").offset().top}, "slow");
 	});
 
+
+
+
 	//lider
 	$('#lider').click(function() {
 		$('body,html').animate({scrollTop: $(".lider").offset().top}, "slow");
 	});
 
 	//invasao
-	$('#sec-invasao').click(function() {
+	$('#invasao').click(function() {
 		$('body,html').animate({scrollTop: $(".sec-invasao").offset().top}, "slow");
 	});
+
+
 
 	//SIDE MENU
 	$('#btn-side-menu').click(function() {
